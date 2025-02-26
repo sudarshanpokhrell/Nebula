@@ -3,5 +3,6 @@ export type Meditation = {
     title: string;
     duration: number;
     type: 'audio' | "video",
-    pro: boolean
+    pro: boolean,
+    image: string;
 }
